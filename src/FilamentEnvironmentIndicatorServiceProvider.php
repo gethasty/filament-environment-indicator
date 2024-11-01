@@ -1,6 +1,6 @@
 <?php
 
-namespace pxlrbt\FilamentEnvironmentIndicator;
+namespace Hasty\FilamentEnvironmentIndicator;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

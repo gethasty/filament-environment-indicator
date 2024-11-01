@@ -1,6 +1,6 @@
 {
-    "name": "pxlrbt/filament-environment-indicator",
-    "description": "Indicator for the current environment inside Filament",
+    "name": "hasty/filament-environment-indicator",
+    "description": "Environment indicator plugin for Laravel Filament.",
     "license": "MIT",
     "keywords": [
         "environment indicator",
@@ -9,8 +9,8 @@
     ],
     "authors": [
         {
-            "name": "Dennis Koch",
-            "email": "info@pixelarbeit.de"
+            "name": "Igor Lima",
+            "email": "me@igorlima.pt"
         }
     ],
     "require": {
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "pxlrbt\\FilamentEnvironmentIndicator\\": "src/"
+            "Hasty\\FilamentEnvironmentIndicator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\pxlrbt\\FilamentEnvironmentIndicator\\FilamentEnvironmentIndicatorServiceProvider"
+                "\\Hasty\\FilamentEnvironmentIndicator\\FilamentEnvironmentIndicatorServiceProvider"
             ]
         }
     },

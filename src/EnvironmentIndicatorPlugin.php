@@ -1,6 +1,6 @@
 <?php
 
-namespace pxlrbt\FilamentEnvironmentIndicator;
+namespace Hasty\FilamentEnvironmentIndicator;
 
 use Closure;
 use Filament\Contracts\Plugin;
